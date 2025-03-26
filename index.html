@@ -3,107 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lakshan - Full Stack Developer Portfolio</title>
+    <title>John Doe - Full Stack Developer Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 font-sans text-gray-800">
+<body class="bg-gradient-to-r from-purple-800 to-blue-700 text-white font-sans">
 
     <!-- Navigation -->
-    <nav class="bg-blue-600 text-white p-4">
+    <nav class="bg-transparent text-white p-6">
         <div class="max-w-screen-xl mx-auto flex justify-between items-center">
-            <div class="logo text-2xl font-bold">John Doe</div>
+            <div class="logo text-3xl font-bold">John Doe</div>
             <ul class="flex space-x-6">
-                <li><a href="#home" class="hover:text-gray-300">Home</a></li>
-                <li><a href="#about" class="hover:text-gray-300">About</a></li>
-                <li><a href="#education" class="hover:text-gray-300">Education</a></li>
-                <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
-                <li><a href="#skills" class="hover:text-gray-300">Skills</a></li>
-                <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+                <li><a href="#home" class="hover:text-gray-300 transition">Home</a></li>
+                <li><a href="#about" class="hover:text-gray-300 transition">About</a></li>
+                <li><a href="#education" class="hover:text-gray-300 transition">Education</a></li>
+                <li><a href="#projects" class="hover:text-gray-300 transition">Projects</a></li>
+                <li><a href="#skills" class="hover:text-gray-300 transition">Skills</a></li>
+                <li><a href="#contact" class="hover:text-gray-300 transition">Contact</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Home Section -->
-    <section id="home" class="section py-16 bg-white">
+    <section id="home" class="section py-32 bg-gradient-to-t from-blue-800 to-transparent">
         <div class="max-w-screen-lg mx-auto text-center">
-            <img src="/api/placeholder/200/200" alt="Profile" class="w-48 h-48 rounded-full mx-auto mb-6">
-            <h1 class="text-4xl font-bold mb-2">John Doe</h1>
-            <h2 class="text-xl text-gray-600 mb-4">Full Stack Developer</h2>
-            <p class="text-gray-700">Passionate about creating innovative web solutions that bridge design and functionality.</p>
+            <img src="/api/placeholder/200/200" alt="Profile" class="rounded-full mx-auto mb-8 border-4 border-white">
+            <h1 class="text-4xl font-bold mb-4">John Doe</h1>
+            <h2 class="text-2xl mb-4">Full Stack Developer</h2>
+            <p class="text-lg mb-6">Passionate about creating innovative web solutions that bridge design and functionality.</p>
         </div>
     </section>
 
     <!-- About Section -->
-<section id="about" class="section py-16 bg-gray-50">
-    <div class="max-w-screen-lg mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-8">About Me</h2>
-        <p class="text-lg text-gray-700 leading-relaxed">
-            I am a passionate Full Stack Developer with a focus on creating innovative web applications.
-            With a background in Computer Science and experience in both frontend and backend technologies,
-            I enjoy bridging the gap between design and functionality to deliver high-quality, user-friendly solutions.
-            I thrive in dynamic, collaborative environments and am constantly learning to stay ahead in the ever-evolving tech industry.
-        </p>
-    </div>
-</section>
-
-    
-    <!-- Education Section -->
-    <section id="education" class="section py-16 bg-gray-50">
+    <section id="about" class="section py-16 bg-gradient-to-r from-blue-800 to-purple-700">
         <div class="max-w-screen-lg mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-8">Education</h2>
-            <div class="bg-white p-6 rounded-lg shadow-lg">
-                <h3 class="text-2xl font-semibold mb-2">Bachelor of Computer Science</h3>
-                <p class="text-gray-600">Tech University, 2018-2022</p>
-                <p class="text-gray-600">Major in Web Technologies and Software Engineering</p>
+            <h2 class="text-3xl font-bold mb-8">About Me</h2>
+            <p class="text-lg leading-relaxed">
+                I am a passionate Full Stack Developer with a focus on creating innovative web applications.
+                With a background in Computer Science and experience in both frontend and backend technologies,
+                I enjoy bridging the gap between design and functionality to deliver high-quality, user-friendly solutions.
+                I thrive in dynamic, collaborative environments and am constantly learning to stay ahead in the ever-evolving tech industry.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section py-16 bg-gradient-to-t from-purple-700 to-transparent">
+        <div class="max-w-screen-lg mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">Education</h2>
+            <div class="bg-white text-gray-800 p-8 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold">Bachelor of Computer Science</h3>
+                <p>Tech University, 2018-2022</p>
+                <p>Major in Web Technologies and Software Engineering</p>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="section py-16">
+    <section id="projects" class="section py-16 bg-gradient-to-r from-purple-700 to-blue-800">
         <div class="max-w-screen-lg mx-auto text-center">
             <h2 class="text-3xl font-bold mb-8">Projects</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="project-card bg-white p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-semibold mb-2">E-Commerce Platform</h3>
-                    <p class="text-gray-600">Full-stack web application with React and Node.js</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="project-card bg-white p-6 rounded-lg shadow-lg text-gray-800">
+                    <h3 class="text-2xl font-semibold">E-Commerce Platform</h3>
+                    <p class="text-lg">Full-stack web application with React and Node.js</p>
                 </div>
-                <div class="project-card bg-white p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-semibold mb-2">Task Management App</h3>
-                    <p class="text-gray-600">Collaborative project management tool</p>
+                <div class="project-card bg-white p-6 rounded-lg shadow-lg text-gray-800">
+                    <h3 class="text-2xl font-semibold">Task Management App</h3>
+                    <p class="text-lg">Collaborative project management tool</p>
                 </div>
-                <div class="project-card bg-white p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-semibold mb-2">Social Media Dashboard</h3>
-                    <p class="text-gray-600">Real-time analytics dashboard</p>
+                <div class="project-card bg-white p-6 rounded-lg shadow-lg text-gray-800">
+                    <h3 class="text-2xl font-semibold">Social Media Dashboard</h3>
+                    <p class="text-lg">Real-time analytics dashboard</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="section py-16 bg-gray-50">
+    <section id="skills" class="section py-16 bg-gradient-to-t from-blue-800 to-transparent">
         <div class="max-w-screen-lg mx-auto text-center">
             <h2 class="text-3xl font-bold mb-8">Skills</h2>
-            <div class="grid md:grid-cols-3 lg:grid-cols-6 gap-6">
-                <div class="skill-item bg-white p-6 rounded-lg shadow-lg">JavaScript</div>
-                <div class="skill-item bg-white p-6 rounded-lg shadow-lg">React</div>
-                <div class="skill-item bg-white p-6 rounded-lg shadow-lg">Node.js</div>
-                <div class="skill-item bg-white p-6 rounded-lg shadow-lg">Python</div>
-                <div class="skill-item bg-white p-6 rounded-lg shadow-lg">MongoDB</div>
-                <div class="skill-item bg-white p-6 rounded-lg shadow-lg">Docker</div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8 text-lg">
+                <div class="skill-item bg-white text-gray-800 p-4 rounded-lg shadow-md">JavaScript</div>
+                <div class="skill-item bg-white text-gray-800 p-4 rounded-lg shadow-md">React</div>
+                <div class="skill-item bg-white text-gray-800 p-4 rounded-lg shadow-md">Node.js</div>
+                <div class="skill-item bg-white text-gray-800 p-4 rounded-lg shadow-md">Python</div>
+                <div class="skill-item bg-white text-gray-800 p-4 rounded-lg shadow-md">MongoDB</div>
+                <div class="skill-item bg-white text-gray-800 p-4 rounded-lg shadow-md">Docker</div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section py-16 bg-white">
+    <section id="contact" class="section py-16 bg-gradient-to-r from-purple-700 to-blue-800">
         <div class="max-w-screen-lg mx-auto text-center">
             <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
-            <form class="contact-form max-w-lg mx-auto">
-                <input type="text" placeholder="Your Name" class="w-full p-3 mb-4 border border-gray-300 rounded-md">
-                <input type="email" placeholder="Your Email" class="w-full p-3 mb-4 border border-gray-300 rounded-md">
-                <textarea placeholder="Your Message" rows="5" class="w-full p-3 mb-4 border border-gray-300 rounded-md"></textarea>
-                <button type="submit" class="w-full bg-blue-600 text-white p-3 rounded-md hover:bg-blue-500">Send Message</button>
+            <form class="contact-form bg-white p-8 rounded-lg shadow-lg" id="contactForm">
+                <input type="text" placeholder="Your Name" required class="w-full p-4 mb-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <input type="email" placeholder="Your Email" required class="w-full p-4 mb-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <textarea placeholder="Your Message" rows="5" required class="w-full p-4 mb-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                <button type="submit" class="w-full py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Send Message</button>
             </form>
         </div>
     </section>
